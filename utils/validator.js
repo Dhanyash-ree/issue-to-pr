@@ -1,6 +1,11 @@
-exports.validateName = (name) => {
-  if (!name || name.length < 2) {
-    return false;
-  }
-  return true;
+
+// repos\issue-to-pr\utils\validator.js
+const Joi = require('joi');
+
+module.exports = {
+  createUser: {
+    username: Joi.string().required(),
+    email: Joi.string().email().required(),
+    password: Joi.string().required(),
+  },
 };
