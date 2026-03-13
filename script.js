@@ -1,4 +1,4 @@
-function createUser(){
+function createUser() {
 
   const username = document.getElementById("username").value;
 
