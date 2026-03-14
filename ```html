@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Signup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>User Registration</h1>
+
+<form id="signupForm" onsubmit="return validateEmail(this.email.value);">
+
+  <input id="name" placeholder="Enter Name">
+
+  <input id="email" placeholder="Enter Email">
+
+  <input id="contact" placeholder="Enter Contact">
+
+  <button type="submit">Create</button>
+
+</form>
+
+<p id="message"></p>
+
+<script src="script.js"></script>
+<script src="formValidator.js"></script>
+
+</body>
+</html>
