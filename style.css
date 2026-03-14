@@ -1,16 +1,65 @@
-body{
-  font-family: Arial;
-  padding: 30px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-input{
-  padding: 8px;
-  margin: 5px;
+.container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-button{
-  padding: 8px 15px;
-  background: blue;
-  color: white;
-  border: none;
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.forgot-password {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sign-up {
+    color: #007bff;
+    text-decoration: none;
 }
