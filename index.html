@@ -1,30 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>User Signup</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
 </head>
-
 <body>
-
-<h1>User Registration</h1>
-
-<form id="signupForm">
-
-  <input id="name" placeholder="Enter Name">
-
-  <input id="email" placeholder="Enter Email">
-
-  <input id="contact" placeholder="Enter Contact">
-
-  <button type="button" onclick="createUser()">Create</button>
-
-</form>
-
-<p id="message"></p>
-
-<script src="script.js"></script>
-<script src="formValidator.js"></script>
-
+    <div class="container">
+        <h1>Login</h1>
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <label>
+                <input type="checkbox"> Remember me
+            </label>
+            <button type="submit">LOG IN</button>
+            <a href="#">Forget Password</a>
+        </form>
+        <p>Not a member? <a href="#">Sign up now</a></p>
+    </div>
 </body>
 </html>
