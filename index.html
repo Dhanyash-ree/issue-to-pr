@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>User Form</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<h2>Create User</h2>
-
-<input id="username" placeholder="Enter username">
-
-<button onclick="createUser()">Create</button>
-
-<p id="message"></p>
-
-<script src="script.js"></script>
-
+    <div class="container">
+        <form class="login-form">
+            <h1>Login</h1>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <label>
+                <input type="checkbox"> Remember me
+            </label>
+            <button type="submit">LOG IN</button>
+            <a href="#" class="forgot-password">Forget Password</a>
+            <p>Not a member? <a href="#">Sign up now</a></p>
+        </form>
+    </div>
 </body>
 </html>
