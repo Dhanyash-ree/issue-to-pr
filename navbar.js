@@ -10,7 +10,7 @@ function loadNavbar() {
 
     const aboutLink = document.createElement('a');
     aboutLink.href = '#about'; // Update the URL to match the new About page
-    aboutLink.textContent = 'AboutuS'; // Corrected the text
+    aboutLink.textContent = 'About'; // Corrected the text
 
     const contactUsLink = document.createElement('a');
     contactUsLink.href = '#contact-us';
