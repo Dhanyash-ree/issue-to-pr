@@ -12,12 +12,13 @@
         <form>
             <input type="text" placeholder="Username" required>
             <input type="password" placeholder="Password" required>
-            <label>
-                <input type="checkbox"> Remember me
-            </label>
-            <button type="submit">LOG IN</button>
+            <div class="remember-me">
+                <input type="checkbox" id="remember">
+                <label for="remember">Remember me</label>
+            </div>
+            <button type="submit" class="login-btn">LOG IN</button>
+            <a href="#" class="forget-password">Forget Password</a>
         </form>
-        <a href="#" class="forgot-password">Forget Password</a>
         <p>Not a member? <a href="#">Sign up now</a></p>
     </div>
 </body>
